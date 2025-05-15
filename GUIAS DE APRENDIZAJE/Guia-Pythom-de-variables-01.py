@@ -3,7 +3,7 @@
 #PRIMERA PRUEBA
 print("Hola mundo") #Sublime
 
-#DECLARACION DE VARIABLES
+#DECLARACION VARIABLES
 nombre = "Ignacio"
 apellido = "Millapani" 
 
