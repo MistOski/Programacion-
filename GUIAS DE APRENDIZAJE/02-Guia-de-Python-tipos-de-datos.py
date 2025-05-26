@@ -45,3 +45,22 @@ print(descripcion.split()) #Separo los textos
 #ARREGLO NUMERICO 
 v = [1, 2, 3, 4, 5] #Inicializando un arreglo numerico (Solo apareceran los que se asignen)
 print(v[0])
+
+#FUNCION LEN
+print(f'La carrera {carrera} tiene:', len(carrera), 'caracteres')
+
+#VALORES BOLEANOS 
+interruptor = True
+ampolleta = False #Los boleanos son el verdadero y falso
+print(interruptor, ampolleta)
+
+#FUNCION TYPE
+print(type(interruptor)) #Permite saber el tipo de dato que se utiliza 
+
+#COMPARATIVA DE VALORES LOGICOS 
+print(1<10)
+print(100<=20) #Si los numeros son iguales o mayores dependiendo lo que se especifique se mostrara como verdadero o falso
+print(100==100)
+print(bool(""))
+print(bool(1)) #El 0 y el vacio "", son tomados como falso al no ser considerados "algo"
+print(bool(0))
