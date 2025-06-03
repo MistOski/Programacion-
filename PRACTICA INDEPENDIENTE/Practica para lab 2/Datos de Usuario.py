@@ -10,6 +10,7 @@ e = int(input("Ingrese su edad: "))
 a = int(input("Ingrese el año actual: "))
 
 #Muestra una frase con el siguiente formato: 
+
 #"Hola, me llamo {nombre}, tengo {edad} años y en el año {año + 10} tendré {edad + 10} años."
 ad = a + 10
 ed = e + 10

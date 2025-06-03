@@ -14,4 +14,4 @@ vt = cd * pu
 umbral = vt > 100000
 
 #Imprimir el nombre del producto, la cantidad, el valor total y el estado umbral en un solo print() formateado. 
-print(format(f"Nombre de producto: {n}, valor total: {vt} cantidad en el stock: {cd}, umbral: {umbral}"))
+print(format(f"Nombre de producto: {n}, valor total: {vt: .2f} cantidad en el stock: {cd}, umbral: {umbral}"))
