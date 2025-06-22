@@ -17,21 +17,30 @@ vv = {
 
 # b) Calcula el total de las ventas semanales de cada vendedor y su bono si le corresponde.
 for v, vt in vv.items():  #Se recurre al items para sacar valores del diccionario, se establece v(vendedor) como clave y vt(ventas) como valor 
-    tv = sum(v)
-
-if tv >= 1500000:
+    tv = sum(vt) #Total de ventas
+    if tv >= 1500000:
      b = sb * 0.20
-elif tv >= 1000000:
+    elif tv >= 1000000:
      b = sb * 0.10  #Se establecen los distintos bonos
-elif tv >= 500000:
-      b = sb * 0.05
-else:
+    elif tv >= 500000:
+      b = sb * 0.05 
+    else:
      b = 0 #Si no se cumplen las condiciones el bono es de 0 
 
 
 # c) Obtener el promedio de ventas semanales de cada vendedor.
+    cd = len(vt) #Cantidad de dias 
+    p = tv / cd #Promedio (Total de ventas dividido por cantidad de dias)                  #Se mantiene todo en el for para que al imprimir aparezcan los 3 vendedors
 
 
 # d) Imprime un reporte con el total del sueldo a pagar por cada vendedor.
+    st = sb + b
+    print(st)
 
 #Los nombres de los vendedores y los valores de las ventas deben estar instanciado en código (Hardcodeado).
+    print(f"{v}:")
+    print(f"Total de ventas semanales: {tv}")
+    print(f"Bono: ${b}")
+    print(f"Promedio diario: ${p}")
+    print(f"Sueldo total a pagar: ${st}")
+    print("-" * 10) #Separa los registros de los vendedores con lineas
