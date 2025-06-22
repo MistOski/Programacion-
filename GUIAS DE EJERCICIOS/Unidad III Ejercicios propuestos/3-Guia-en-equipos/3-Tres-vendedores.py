@@ -30,7 +30,7 @@ for v, vt in vv.items():  #Se recurre al items para sacar valores del diccionari
 
 # c) Obtener el promedio de ventas semanales de cada vendedor.
     cd = len(vt) #Cantidad de dias 
-    p = tv / cd #Promedio (Total de ventas dividido por cantidad de dias)                  #Se mantiene todo en el for para que al imprimir aparezcan los 3 vendedors
+    p = tv / cd #Promedio (Total de ventas dividido por cantidad de dias)                  #Se mantiene todo en el for para que al imprimir aparezcan los 3 vendedores
 
 
 # d) Imprime un reporte con el total del sueldo a pagar por cada vendedor.
